@@ -1,0 +1,63 @@
+-Uno de los participantes del grupo deberá crear un repositorio local con esta carpeta y crear una rama "Develop",
+luego deberá crar un repositorio remoto en GitHub, vincular el local a este e invitar al resto del grupo.
+
+-Habiendo ya organizado el turno que corresponde a cada uno:
+1- Clonar el repo de GitHub en su computadora.
+2- Crear una rama propia para trabajar.
+3- Crear un párrafo dentro del "div" que está en index.html.
+4- Cambiar 1 estilo del compañero anterior y agregar uno nuevo. El primer participante solamente deberá agregar 2 estilos.
+(Utilizar el selector de tipo "p")
+5- Desde esta rama propia hacer el commit y pushear los cambios.
+6- Hacer el merge a la rama develop (IMPORTANTE).
+7- Solucionar los conflictos.(El primer compa no va a tener conflictos, o eso creo).
+8- Fin, creo.
+Ah, el último va a tener que hacer el merge de la rama develop ya completa a la rama master.
+
+Tip - el que cree el repo (quizá el resto también) puede poner que la rama "master" no pueda recibir merge,
+si mal no recuerdo, y después al final pra hacer el merge de develop a master le sacan esa prohibición y ta.
+
+Ejemplo:
+
+Código base:
+HTML:
+<div>
+    vacío
+<div>
+CSS:
+    vacío
+
+-----------------------------------------------------
+
+Primer compa.
+HTML:
+<div>
+    <p>
+        Esto es un párrafo.
+    </p>
+<div>
+CSS:
+p{
+    text-align: center;
+    margin:10px 0;
+}
+
+-----------------------------------------------------
+
+Segundo compa.
+HTML:
+<div>
+    <p>
+        Esto es un párrafo.
+    </p>
+    <p>
+        Esto es otro párrafo.
+    </p>
+<div>
+
+CSS:
+p{
+    text-align: center;
+    margin:12px 5px;
+    color: red;
+}
+
