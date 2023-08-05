@@ -17,3 +17,8 @@ body{
     align-items: center;
     width: 60%;
 }
+
+p {
+    background-color: tomato;
+    text-align: justify;
+}
