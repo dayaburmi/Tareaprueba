@@ -18,7 +18,9 @@ body{
     width: 60%;
 }
 
+
 p {
     background-color: tomato;
     text-align: justify;
+    color: blueviolet;
 }
