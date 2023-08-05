@@ -22,5 +22,11 @@ body{
 p {
     background-color: tomato;
     text-align: justify;
-    color: blueviolet;
+    color: greenyellow;
+}
+
+.especial {
+    text-decoration-line: underline;
+    color: darkorchid;
+    border: 1px solid black;
 }
